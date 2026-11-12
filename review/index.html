@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="객체지향·UML, SOLID, 설계패턴을 돌아보는 1~4주차 누적 퀴즈">
+  <meta name="theme-color" content="#f6f5f0">
+  <title>설계패턴 누적 복습 | AX Pattern Lab</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="questions.js" defer></script>
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a class="skip" href="#quiz">퀴즈로 바로 가기</a>
+  <header class="topbar">
+    <div class="shell topbar-inner">
+      <a class="wordmark" href="../" aria-label="AX Pattern Lab 홈으로 돌아가기">
+        <span class="mark" aria-hidden="true"><svg width="22" height="22" viewBox="0 0 24 24" fill="none"><path d="M12 3.5 21 8l-9 4.5L3 8l9-4.5ZM3 12l9 4.5 9-4.5M3 16l9 4.5 9-4.5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+        <span>AX Pattern Lab <small>홈으로 돌아가기</small></span>
+      </a>
+      <span class="session-label">5주차 복습 자료</span>
+    </div>
+  </header>
+  <main class="shell">
+    <section class="hero" aria-labelledby="page-title">
+      <div class="hero-copy">
+        <p class="eyebrow">WEEK 01–04 <span aria-hidden="true"></span> REVIEW QUIZ</p>
+        <h1 id="page-title">설계패턴 누적 복습</h1>
+        <p>객체지향과 UML부터 Command와 Observer까지.<br class="desktop-break"> 8문항을 풀고, 답을 고른 근거를 확인해 보세요.</p>
+        <div class="hero-meta"><span>4개 주차</span><span>8개 문항</span><span>제출 후 해설</span></div>
+      </div>
+      <div class="hero-map" aria-hidden="true">
+        <div><b>01</b><span>객체지향 · UML</span></div>
+        <div><b>02</b><span>SOLID</span></div>
+        <div><b>03</b><span>Strategy · State</span></div>
+        <div><b>04</b><span>Command · Observer</span></div>
+      </div>
+    </section>
+    <div class="workspace">
+      <aside class="rail" aria-labelledby="scope-title">
+        <div class="rail-header"><p class="section-kicker">STUDY MAP</p><h2 id="scope-title">주차별 복습</h2></div>
+        <nav id="week-nav" class="week-nav" aria-label="주차별 문항"></nav>
+        <div class="rail-note"><strong>근거를 한 줄 남겨 보세요</strong><p>정답을 고르기 전 어떤 코드나 UML 표기가 판단에 영향을 줬는지 적어 보세요.</p></div>
+      </aside>
+      <section id="quiz" class="quiz" aria-label="복습 퀴즈" tabindex="-1">
+        <div id="quiz-status" class="quiz-status" aria-live="polite"></div>
+        <nav id="question-nav" class="question-nav" aria-label="문항 번호"></nav>
+        <div id="quiz-view"></div>
+        <noscript><p class="notice">문항을 풀려면 브라우저에서 JavaScript를 켜 주세요.</p></noscript>
+      </section>
+    </div>
+    <footer class="footer"><span>AX Pattern Lab · 1~4주차 누적 복습</span><span>풀이 기록은 이 브라우저에 저장됩니다.</span></footer>
+  </main>
+</body>
+</html>
