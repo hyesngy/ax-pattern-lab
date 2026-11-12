@@ -7,6 +7,24 @@
   const weekNav = document.getElementById('week-nav');
   const questionNav = document.getElementById('question-nav');
 
+  function renderLearningProgress() {
+    let learning;
+    try {
+      learning = JSON.parse(window.localStorage.getItem('ax-pattern-lab-v2'));
+    } catch {
+      learning = null;
+    }
+    const topics = ['oop', 'solid', 'behavior', 'command-observer', 'structure'];
+    const done = topics.filter(id => learning?.lessons?.[id]?.done === true).length;
+    document.getElementById('progress-pill').textContent = done + ' / 5주차 학습 완료';
+  }
+
+  renderLearningProgress();
+  window.addEventListener('pageshow', renderLearningProgress);
+  window.addEventListener('storage', event => {
+    if (event.key === 'ax-pattern-lab-v2' || event.key === null) renderLearningProgress();
+  });
+
   function element(tag, className, content) {
     const node = document.createElement(tag);
     if (className) node.className = className;
