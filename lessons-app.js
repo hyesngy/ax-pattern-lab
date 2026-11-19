@@ -183,7 +183,7 @@
     const heading = node('div', 'section-head');
     const headingCopy = node('div');
     headingCopy.append(node('span', 'eyebrow', 'Learning Journey'), node('h2', '', '주차별 학습'));
-    heading.append(headingCopy, node('p', '', '1~5주차 자료를 순서대로 살펴보세요. 6주차에는 Template Method와 Factory Method를 이어서 다룹니다.'));
+    heading.append(headingCopy, node('p', '', '1~6주차 자료를 순서대로 살펴보세요. 7주차에는 Abstract Factory와 패턴 선택을 이어서 다룹니다.'));
     const grid = node('div', 'week-grid');
     lessons.forEach(lesson => grid.append(lessonCard(lesson)));
     course.append(heading, grid);

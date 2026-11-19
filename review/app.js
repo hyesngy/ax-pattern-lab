@@ -14,9 +14,9 @@
     } catch {
       learning = null;
     }
-    const topics = ['oop', 'solid', 'behavior', 'command-observer', 'structure'];
+    const topics = ['oop', 'solid', 'behavior', 'command-observer', 'structure', 'template-factory'];
     const done = topics.filter(id => learning?.lessons?.[id]?.done === true).length;
-    document.getElementById('progress-pill').textContent = done + ' / 5주차 학습 완료';
+    document.getElementById('progress-pill').textContent = done + ' / ' + topics.length + '주차 학습 완료';
   }
 
   renderLearningProgress();

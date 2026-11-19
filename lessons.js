@@ -42,7 +42,7 @@ window.AX_LESSONS = [
       },
       {
         "label": "Gemini 교차 검토",
-        "text": "Java와 UML을 공부하는 대학생의 쇼핑몰 설계야. 아래 요구사항, 내 설계, ChatGPT 리뷰를 별도로 검토해 줘. 집합과 합성의 소유 조건, 마름모 위치, 인터페이스 구현 관계를 확인하고 의견이 다르면 어떤 전제에서 달라지는지 설명해 줘. 독립적으로 존재한다는 이유만으로 집합 관계를 단정한 부분도 찾아 줘. 튜터는 최종 관계와 근거가 연결되는지 확인하려고 해.\n\n요구사항·설계·리뷰\n"
+        "text": "Java와 UML을 공부하는 대학생의 쇼핑몰 설계야. 아래 요구사항, 내 설계, Claude 리뷰를 별도로 검토해 줘. 집합과 합성의 소유 조건, 마름모 위치, 인터페이스 구현 관계를 확인하고 의견이 다르면 어떤 전제에서 달라지는지 설명해 줘. 독립적으로 존재한다는 이유만으로 집합 관계를 단정한 부분도 찾아 줘. 튜터는 최종 관계와 근거가 연결되는지 확인하려고 해.\n\n요구사항·설계·리뷰\n"
       }
     ],
     "examples": [
@@ -240,7 +240,7 @@ window.AX_LESSONS = [
       },
       {
         "label": "Gemini 교차 검토",
-        "text": "Java와 UML을 배운 대학생의 SOLID 리팩토링이야. 아래 요구사항과 코드, ChatGPT 리뷰를 따로 검토해 줘. 역할을 메서드로만 나누고 변경 이유는 한 클래스에 남겨 둔 부분, 인터페이스를 만들고도 구체 구현을 직접 선택하는 부분을 확인해 줘. 추상화가 필요한 변경 요구도 함께 짚어 줘. 타당한 설계가 여러 개라면 선택 조건을 비교하고, 최종 판단을 코드 근거와 함께 설명할 질문을 남겨 줘.\n\n요구사항·코드·리뷰\n"
+        "text": "Java와 UML을 배운 대학생의 SOLID 리팩토링이야. 아래 요구사항과 코드, Claude 리뷰를 따로 검토해 줘. 역할을 메서드로만 나누고 변경 이유는 한 클래스에 남겨 둔 부분, 인터페이스를 만들고도 구체 구현을 직접 선택하는 부분을 확인해 줘. 추상화가 필요한 변경 요구도 함께 짚어 줘. 타당한 설계가 여러 개라면 선택 조건을 비교하고, 최종 판단을 코드 근거와 함께 설명할 질문을 남겨 줘.\n\n요구사항·코드·리뷰\n"
       }
     ],
     "examples": [
@@ -445,7 +445,7 @@ window.AX_LESSONS = [
       },
       {
         "label": "Gemini 교차 검토",
-        "text": "Java·SOLID를 배운 대학생을 위한 패턴 비교 자료야. 아래 요구사항, 코드, ChatGPT 리뷰를 별도로 검토해 줘. Strategy와 State를 목적과 변경 원인으로 구분했는지, 상태 전이를 특정 객체만 맡아야 한다고 단정했는지 확인해 줘. enum 상수의 초기화와 가변 상태 갱신의 안전성도 나눠 설명해 줘. 구체 enum 주입만으로 테스트가 격리된다는 설명이 있으면 독립 객체를 만들 수 있는지 확인해 줘. 처음 판단과 수정한 판단의 코드 근거를 정리할 질문을 남겨 줘.\n\n요구사항·코드·리뷰\n"
+        "text": "Java·SOLID를 배운 대학생을 위한 패턴 비교 자료야. 아래 요구사항, 코드, Claude 리뷰를 별도로 검토해 줘. Strategy와 State를 목적과 변경 원인으로 구분했는지, 상태 전이를 특정 객체만 맡아야 한다고 단정했는지 확인해 줘. enum 상수의 초기화와 가변 상태 갱신의 안전성도 나눠 설명해 줘. 구체 enum 주입만으로 테스트가 격리된다는 설명이 있으면 독립 객체를 만들 수 있는지 확인해 줘. 처음 판단과 수정한 판단의 코드 근거를 정리할 질문을 남겨 줘.\n\n요구사항·코드·리뷰\n"
       }
     ],
     "examples": [
@@ -665,7 +665,7 @@ window.AX_LESSONS = [
       },
       {
         "label": "Gemini 교차 검토",
-        "text": "Java와 UML을 배운 대학생을 위한 Command·Observer 설계와 ChatGPT의 검토 내용을 붙일게. 독립적으로 실행 순서를 따라가며 직전 상태의 실행별 캡처, LIFO 취소, 알림 시작 시점의 구독 목록을 확인해 줘. 조명이 꺼진 상태에서 켜기를 두 번 실행하고 두 번 취소하면 true, false가 나오는지 검토해 줘. 단일 스레드 목록 복사가 동시 접근까지 안전하게 한다고 설명한 부분이 있는지도 찾아 줘. 다른 결론이 나오면 요구사항과 코드 줄을 근거로 설명해 줘."
+        "text": "Java와 UML을 배운 대학생을 위한 Command·Observer 설계와 Claude의 검토 내용을 붙일게. 독립적으로 실행 순서를 따라가며 직전 상태의 실행별 캡처, LIFO 취소, 알림 시작 시점의 구독 목록을 확인해 줘. 조명이 꺼진 상태에서 켜기를 두 번 실행하고 두 번 취소하면 true, false가 나오는지 검토해 줘. 단일 스레드 목록 복사가 동시 접근까지 안전하게 한다고 설명한 부분이 있는지도 찾아 줘. 다른 결론이 나오면 요구사항과 코드 줄을 근거로 설명해 줘."
       }
     ],
     "examples": [
@@ -870,7 +870,7 @@ window.AX_LESSONS = [
       },
       {
         "label": "Gemini 교차 검토",
-        "text": "Decorator·Composite 학습용 Java 코드와 ChatGPT의 리뷰를 붙일게. 음료 옵션을 감싸는 순서대로 호출을 추적하고, 중첩 폴더에서 자식의 크기를 재귀적으로 합산하는지 독립적으로 확인해 줘. 클래스 이름만 보고 판단하지 말고 인터페이스와 객체 참조를 근거로 설명해 줘. 이번 가격 예제가 단순 덧셈이라는 조건을 모든 Decorator에 일반화하지 않았는지도 확인해 줘. 검토 후 처음 판단, 최종 판단, 코드나 UML 근거, 남은 의문을 정리할 질문을 만들어 줘."
+        "text": "Decorator·Composite 학습용 Java 코드와 Claude의 리뷰를 붙일게. 음료 옵션을 감싸는 순서대로 호출을 추적하고, 중첩 폴더에서 자식의 크기를 재귀적으로 합산하는지 독립적으로 확인해 줘. 클래스 이름만 보고 판단하지 말고 인터페이스와 객체 참조를 근거로 설명해 줘. 이번 가격 예제가 단순 덧셈이라는 조건을 모든 Decorator에 일반화하지 않았는지도 확인해 줘. 검토 후 처음 판단, 최종 판단, 코드나 UML 근거, 남은 의문을 정리할 질문을 만들어 줘."
       }
     ],
     "examples": [
@@ -1039,60 +1039,69 @@ window.AX_LESSONS = [
     "week": 6,
     "title": "처리 순서와 생성을 분리하기",
     "topic": "Template Method · Factory Method",
-    "planned": true,
+    "planned": false,
     "colors": [
       "#C5A7FF",
       "#FFD1A7"
     ],
     "goals": [
-      "공통 처리 순서와 바꿀 단계를 나눠 Template Method로 표현한다.",
-      "객체를 생성하는 결정과 생성된 객체를 사용하는 코드를 구분한다.",
-      "앞선 주차의 Strategy와 Template Method를 변경 요구에 따라 비교한다."
+      "공통 처리 순서와 바꿀 단계를 나누고, 반드시 구현할 단계(추상 메서드)와 선택 단계(훅)를 구분한다.",
+      "객체를 생성하는 결정과 생성된 객체를 사용하는 코드를 나누고, 새 제품을 추가할 때 바뀌는 조립 코드의 범위를 설명한다.",
+      "가상 학생 답안과 변경 요청으로 두 패턴의 한계를 찾고, Strategy와 다른 점을 코드 근거로 판단한다."
     ],
     "concepts": [
-      "Template Method는 상위 클래스의 메서드가 처리 순서를 정하고 일부 단계를 하위 클래스에 맡긴다.",
-      "Factory Method는 생성 메서드를 재정의해 반환할 제품의 구체 유형을 정한다.",
-      "생성된 객체를 사용하는 코드는 공통 제품 인터페이스를 호출한다.",
-      "상속으로 단계를 바꾸는 설계와 조합으로 전략을 교체하는 설계를 요구사항에 맞춰 비교한다."
+      "Template Method는 상위 클래스의 final 메서드가 처리 순서를 정하고, 일부 단계만 하위 클래스에 맡긴다.",
+      "추상 메서드는 하위 클래스가 반드시 구현해야 하고, 훅은 기본 구현이 있어 필요한 하위 클래스만 재정의한다. 첨가물이 없는 핫초코는 훅을 재정의하지 않는다.",
+      "Factory Method는 상위 흐름이 호출하는 생성 메서드를 하위 클래스가 재정의해 구체 제품을 정한다. Creator가 기본 제품을 반환하는 기본 구현을 가질 수도 있다.",
+      "패턴은 변경을 없애지 않고 바뀌는 곳을 조립 지점으로 모은다. 새 알림을 추가하면 어떤 서비스를 쓸지 고르는 코드는 바뀐다.",
+      "처리 순서 자체가 바뀌는 요청(얼음 먼저 넣는 음료)이나 이미 만든 객체의 동작을 실행 중에 바꾸는 요청은 상속만으로 풀기 어렵다. 이때는 별도 템플릿이나 위임(Strategy)을 검토한다."
     ],
-    "challenge": "커피와 차는 물 끓이기, 재료 우리기, 컵에 붓기, 첨가물 넣기 순서로 만듭니다. 공통으로 유지할 순서와 음료에 따라 바꿀 단계를 표시하세요.\n\n알림 서비스는 생성한 알림 객체에 메시지를 보냅니다. 이메일용 서비스와 앱용 서비스가 서로 다른 알림 객체를 만들도록 UML을 그려보세요. 생성하는 메서드와 제품을 사용하는 메서드를 각각 표시하세요.",
+    "challenge": "커피와 차는 물 끓이기, 재료 우리기, 컵에 붓기, 첨가물 넣기 순서로 만듭니다. 핫초코는 같은 순서지만 첨가물을 넣지 않습니다. 공통 순서와 음료마다 바뀌는 단계를 표시하고, 반드시 구현할 단계와 선택 단계를 나눠 UML을 그려 보세요.\n\n알림 서비스는 생성한 알림 객체에 메시지를 보냅니다. 이메일·앱 서비스가 서로 다른 알림 객체를 만들도록 그리고, SMS 알림을 추가할 때 새로 만드는 클래스와 고치는 코드를 적어 보세요.\n\n마지막으로 아래 학생 답안을 채점하고 틀린 부분을 고쳐 보세요.\n\"핫초코는 첨가물이 없으므로 addCondiments()를 빈 몸체로 재정의해야 합니다. Beverage가 추상 클래스라서 재정의하지 않으면 컴파일 오류가 나기 때문입니다.\"",
     "hints": [
-      "커피와 차에서 단계의 순서는 같은가요? 알림 종류가 바뀔 때 사용하는 코드와 만드는 코드 중 어디가 달라지는지도 찾아보세요.",
-      "처리 순서를 정하는 메서드가 하위 클래스의 세부 단계를 호출하도록 그려보세요. 알림 서비스는 어떤 공통 계약의 객체를 반환받으면 될까요?",
-      "prepare가 brew와 addCondiments를 호출하고 하위 클래스가 두 단계를 구현하게 해보세요. Factory Method 예제에서는 createNotification을 하위 서비스가 구현하고 notifyUser는 반환된 객체의 send를 호출하게 합니다."
+      "커피·차·핫초코에서 순서는 같은가요? 핫초코가 하지 않는 단계는 무엇이고, 그 단계를 모든 음료가 꼭 구현해야 하나요? 알림 종류가 바뀔 때 만드는 코드와 쓰는 코드 중 어디가 달라지는지도 찾아보세요.",
+      "순서를 정하는 메서드를 하위 클래스가 재정의하지 못하게 하려면 어떤 키워드가 필요할까요? 우리기 단계는 몸체 없이, 첨가물 단계는 빈 몸체로 두면 어떻게 다를지 비교해 보세요. SMS를 추가할 때 notifyUser()를 고쳐야 하는지도 확인해 보세요.",
+      "prepare()를 final로 두고 brew()는 abstract, addCondiments()는 빈 훅으로 두세요. 핫초코는 brew()만 구현하면 컴파일됩니다. 알림 쪽은 SmsNotification과 SmsService를 추가하고, 서비스를 고르는 chooseService()에 분기를 하나 더하면 됩니다. notifyUser()와 기존 서비스는 그대로입니다."
     ],
     "prompts": [
       {
-        "label": "분석 질문",
-        "text": "Java와 UML, SOLID, Strategy, Command·Observer, Decorator·Composite를 배운 대학생이야. 다음 수업에서 Template Method와 Factory Method를 학습할 예정이야. 커피·차 제조 과정의 공통 순서와 다른 단계, 알림 객체를 생성하고 사용하는 책임을 비교할 분석 질문을 만들어 줘. 내가 UML을 그리기 전에는 완성 설계를 보여주지 마. 튜터는 고정할 순서와 바꿀 단계, 생성 위치를 코드나 UML에서 짚는지 확인할 거야."
+        "label": "분석 질문 (Claude)",
+        "text": "Java와 UML, SOLID, Strategy, Command·Observer, Decorator·Composite를 배운 대학생이야. Template Method와 Factory Method를 공부하고 있어. 커피·차·핫초코 제조 과정에서 공통 순서와 바뀌는 단계, 꼭 구현해야 하는 단계와 선택 단계를 찾는 분석 질문 세 개를 만들어 줘. 알림 객체를 만드는 책임과 쓰는 책임을 구분하는 질문도 넣어 줘. 내가 UML을 그리기 전에는 완성 설계를 보여주지 마."
       },
       {
-        "label": "단계별 힌트",
-        "text": "내 UML과 처음 생각한 답을 붙일게. Template Method의 처리 순서와 세부 단계가 섞였는지, Factory Method의 생성 결정과 제품 사용이 섞였는지 살펴봐 줘. 한 번에 힌트 하나만 주고 내가 수정한 뒤 다음 힌트를 줘. 정답 클래스 이름보다 어느 메서드가 무엇을 결정해야 하는지 먼저 묻도록 해 줘."
+        "label": "단계별 힌트 (Claude)",
+        "text": "내 UML과 처음 생각한 답을 붙일게. Template Method의 처리 순서와 세부 단계가 섞였는지, 훅과 추상 메서드를 구분했는지, Factory Method의 생성 결정과 제품 사용이 섞였는지 살펴봐 줘. 한 번에 힌트 하나만 주고 내가 수정한 뒤 다음 힌트를 줘. 정답 클래스 이름보다 어느 메서드가 무엇을 결정해야 하는지 먼저 묻도록 해 줘."
       },
       {
-        "label": "코드 리뷰",
-        "text": "내 Java 코드에서 Template Method와 Factory Method가 요구사항을 만족하는지 검토해 줘. 음료 제조 순서는 유지하고 brew와 addCondiments를 바꿀 수 있어야 해. 알림 서비스는 생성한 Notification의 send를 공통으로 호출해야 해. 하위 클래스가 전체 흐름을 복제했거나 사용하는 코드가 구체 제품별로 분기한 부분을 찾아 줘. 코드 줄과 변경 요구를 근거로 힌트를 주고, 처음 설계에서 바뀐 판단을 설명할 질문으로 마무리해 줘."
+        "label": "가상 학생 답안 (Claude)",
+        "text": "학생 역할을 맡아 줘. 커피·차 예제와 알림 서비스 예제에서 무엇이 고정되고 무엇을 하위 클래스가 정하는지 설명하는 학생 답안 세 개를 만들어 줘. 답안마다 자주 나오는 오개념을 하나 이상 넣고(prepare() 복사, static 생성 메서드를 Factory Method로 착각, notifyUser() 안의 if 분기, Strategy와 혼동, 훅을 반드시 재정의해야 한다는 생각), 하나는 한 군데만 틀리게 해 줘. 틀린 곳은 표시하지 말고, 맨 아래에 따로 오개념과 10점 만점 채점 기준을 적어 줘. 내가 먼저 채점할 거야."
+      },
+      {
+        "label": "변경 요청 카드 (Claude)",
+        "text": "카페 사장 역할을 맡아 줘. 내 음료·알림 설계에 변경 요청을 쉬운 것부터 하나씩 던져 줘. 다섯 개 가운데 하나는 고정한 처리 순서를 깨는 요청, 하나는 실행 중에 동작을 바꿔야 하는 요청으로 해 줘. 내가 바뀌는 클래스와 그대로 두는 코드를 답하면 맞는지 확인하고 다음 요청으로 넘어가 줘. 패턴으로 깔끔하게 풀리지 않는 요청이면 그렇다고 솔직하게 말해 줘."
       },
       {
         "label": "Gemini 교차 검토",
-        "text": "Template Method·Factory Method 설계와 ChatGPT의 리뷰를 붙일게. 고정된 처리 순서, 재정의하는 단계, 제품을 만드는 메서드와 제품 인터페이스를 독립적으로 확인해 줘. static 메서드로 객체를 만드는 코드만 보고 Factory Method라고 부르지 않았는지도 검토해 줘. Strategy로 바꾸는 대안이 필요하다면 실제 변경 요구를 근거로 설명하고, 처음 판단과 최종 판단을 비교하고 코드나 UML에서 근거를 찾을 회고 질문을 제시해 줘."
+        "text": "Template Method·Factory Method 설계와 Claude의 리뷰를 붙일게. 고정된 처리 순서, 추상 메서드와 훅, 제품을 만드는 메서드와 제품 인터페이스를 따로 확인해 줘. static 메서드로 객체를 만드는 코드만 보고 Factory Method라고 부르지 않았는지, 새 제품을 추가할 때 조립 코드가 바뀐다는 점을 빠뜨리지 않았는지도 검토해 줘. 항목마다 동의 / 반대 / 보완으로 표시하고 근거를 써 줘."
+      },
+      {
+        "label": "NotebookLM 근거 판정",
+        "text": "(출처: 템플릿 메서드·팩토리 메서드 설명 문서) 아래는 Claude와 Gemini가 다르게 판단한 쟁점이야. 쟁점마다 출처를 근거로 \"자료에 근거 있음 / 자료와 다름 / 자료 밖\" 중 하나로 판정하고, 근거가 된 부분을 짧게 인용해 줘. 출처에 없는 내용은 지어내지 말고 \"자료 밖\"이라고 해 줘."
       }
     ],
     "examples": [
       {
-        "title": "음료 제조 순서는 유지하고 단계 바꾸기",
-        "description": "prepare는 순서를 정한다. CoffeeRecipe와 TeaRecipe는 재료를 우리고 첨가물을 넣는 단계만 구현한다.",
+        "title": "순서는 고정하고, 훅으로 선택 단계 두기",
+        "description": "Beverage의 prepare()는 final이라 순서를 바꿀 수 없다. brew()는 반드시 구현하는 추상 메서드이고, addCondiments()는 빈 훅이라 핫초코는 재정의하지 않는다.",
         "className": "DrinkTemplateDemo",
-        "code": "public class DrinkTemplateDemo {\n    static abstract class DrinkRecipe {\n        final void prepare() {\n            System.out.println(\"Boil water\");\n            brew();\n            System.out.println(\"Pour into cup\");\n            addCondiments();\n        }\n        protected abstract void brew();\n        protected abstract void addCondiments();\n    }\n\n    static final class CoffeeRecipe extends DrinkRecipe {\n        protected void brew() { System.out.println(\"Brew coffee\"); }\n        protected void addCondiments() { System.out.println(\"Add milk\"); }\n    }\n\n    static final class TeaRecipe extends DrinkRecipe {\n        protected void brew() { System.out.println(\"Steep tea\"); }\n        protected void addCondiments() { System.out.println(\"Add lemon\"); }\n    }\n\n    public static void main(String[] args) {\n        DrinkRecipe recipe = new CoffeeRecipe();\n        recipe.prepare();\n        System.out.println(\"---\");\n        recipe = new TeaRecipe();\n        recipe.prepare();\n    }\n}",
-        "expectedOutput": "Boil water\nBrew coffee\nPour into cup\nAdd milk\n---\nBoil water\nSteep tea\nPour into cup\nAdd lemon\n"
+        "code": "abstract class Beverage {\n    public final void prepare() {\n        boilWater();\n        brew();\n        pourInCup();\n        addCondiments();\n    }\n    private void boilWater() { System.out.println(\"물 끓이기\"); }\n    private void pourInCup() { System.out.println(\"컵에 붓기\"); }\n    protected abstract void brew();\n    protected void addCondiments() { }\n}\n\nclass Coffee extends Beverage {\n    @Override protected void brew() { System.out.println(\"필터로 커피 우리기\"); }\n    @Override protected void addCondiments() { System.out.println(\"설탕과 우유 넣기\"); }\n}\n\nclass Tea extends Beverage {\n    @Override protected void brew() { System.out.println(\"티백 우리기\"); }\n    @Override protected void addCondiments() { System.out.println(\"레몬 넣기\"); }\n}\n\nclass HotChocolate extends Beverage {\n    @Override protected void brew() { System.out.println(\"코코아 가루 녹이기\"); }\n}\n\npublic class DrinkTemplateDemo {\n    public static void main(String[] args) {\n        Beverage[] drinks = { new Coffee(), new Tea(), new HotChocolate() };\n        for (Beverage drink : drinks) {\n            drink.prepare();\n            System.out.println(\"---\");\n        }\n    }\n}",
+        "expectedOutput": "물 끓이기\n필터로 커피 우리기\n컵에 붓기\n설탕과 우유 넣기\n---\n물 끓이기\n티백 우리기\n컵에 붓기\n레몬 넣기\n---\n물 끓이기\n코코아 가루 녹이기\n컵에 붓기\n---\n"
       },
       {
-        "title": "알림 제품을 만드는 메서드 재정의하기",
-        "description": "NotificationService는 제품을 사용하는 흐름을 정하고 하위 서비스가 createNotification을 구현해 구체 제품을 만든다.",
+        "title": "알림 제품은 하위 서비스가 만들고, 조립 코드는 서비스를 고르기",
+        "description": "notifyUser()는 createNotification()으로 받은 객체의 send()만 호출한다. 구체 알림을 정하는 줄은 하위 서비스의 return new 뿐이다. SMS를 추가하면 SmsNotification·SmsService를 만들고 chooseService()에 분기를 더한다.",
         "className": "NotificationFactoryDemo",
-        "code": "public class NotificationFactoryDemo {\n    interface Notification {\n        String send(String message);\n    }\n\n    static final class EmailNotification implements Notification {\n        public String send(String message) { return \"EMAIL \" + message; }\n    }\n\n    static final class AppNotification implements Notification {\n        public String send(String message) { return \"APP \" + message; }\n    }\n\n    static abstract class NotificationService {\n        protected abstract Notification createNotification();\n        final String notifyUser(String message) {\n            Notification notification = createNotification();\n            return notification.send(message);\n        }\n    }\n\n    static final class EmailService extends NotificationService {\n        protected Notification createNotification() { return new EmailNotification(); }\n    }\n\n    static final class AppService extends NotificationService {\n        protected Notification createNotification() { return new AppNotification(); }\n    }\n\n    public static void main(String[] args) {\n        NotificationService email = new EmailService();\n        NotificationService app = new AppService();\n        System.out.println(email.notifyUser(\"ready\"));\n        System.out.println(app.notifyUser(\"ready\"));\n    }\n}",
-        "expectedOutput": "EMAIL ready\nAPP ready\n"
+        "code": "interface Notification {\n    void send(String message);\n}\nclass EmailNotification implements Notification {\n    @Override public void send(String message) { System.out.println(\"[이메일] \" + message); }\n}\nclass PushNotification implements Notification {\n    @Override public void send(String message) { System.out.println(\"[앱 푸시] \" + message); }\n}\nclass SmsNotification implements Notification {\n    @Override public void send(String message) { System.out.println(\"[SMS] \" + message); }\n}\nabstract class NotificationService {\n    public void notifyUser(String message) {\n        Notification notification = createNotification();\n        notification.send(message);\n    }\n    protected abstract Notification createNotification();\n}\nclass EmailService extends NotificationService {\n    @Override protected Notification createNotification() { return new EmailNotification(); }\n}\nclass AppService extends NotificationService {\n    @Override protected Notification createNotification() { return new PushNotification(); }\n}\nclass SmsService extends NotificationService {\n    @Override protected Notification createNotification() { return new SmsNotification(); }\n}\npublic class NotificationFactoryDemo {\n    static NotificationService chooseService(String channel) {\n        switch (channel) {\n            case \"email\": return new EmailService();\n            case \"app\":   return new AppService();\n            case \"sms\":   return new SmsService();\n            default: throw new IllegalArgumentException(\"모르는 채널: \" + channel);\n        }\n    }\n    public static void main(String[] args) {\n        String[] channels = { \"email\", \"app\", \"sms\" };\n        for (String channel : channels) {\n            NotificationService service = chooseService(channel);\n            service.notifyUser(\"주문이 접수되었습니다.\");\n        }\n    }\n}",
+        "expectedOutput": "[이메일] 주문이 접수되었습니다.\n[앱 푸시] 주문이 접수되었습니다.\n[SMS] 주문이 접수되었습니다.\n"
       }
     ],
     "quiz": [
@@ -1145,10 +1154,37 @@ window.AX_LESSONS = [
           {
             "id": "d",
             "text": "brew와 addCondiments도 재정의하지 못하게 하기 위해서다.",
-            "explanation": "그 메서드는 abstract이며 각 하위 클래스가 구현한다."
+            "explanation": "brew()는 abstract라 반드시 구현하고, addCondiments()는 훅이라 필요한 음료만 재정의한다. final은 prepare()에만 붙어 있다."
           }
         ],
         "answer": "a"
+      },
+      {
+        "id": "template-hook",
+        "question": "핫초코는 첨가물을 넣지 않는다. DrinkTemplateDemo에서 HotChocolate이 addCondiments()를 재정의하지 않아도 되는 이유는?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Beverage가 추상 클래스라서 모든 메서드를 재정의할 필요가 없기 때문이다.",
+            "explanation": "추상 클래스라도 abstract 메서드는 반드시 구현해야 한다. brew()가 그 예다."
+          },
+          {
+            "id": "b",
+            "text": "addCondiments()가 몸체가 있는 훅이라 재정의하지 않으면 빈 기본 구현이 쓰이기 때문이다.",
+            "explanation": "훅은 선택 단계다. 재정의하지 않아도 prepare()가 그대로 동작한다."
+          },
+          {
+            "id": "c",
+            "text": "prepare()가 final이라 addCondiments()를 부르지 않기 때문이다.",
+            "explanation": "prepare()는 네 단계를 모두 호출한다. final은 순서를 바꾸지 못하게 할 뿐이다."
+          },
+          {
+            "id": "d",
+            "text": "재정의하지 않으면 컴파일 오류가 나므로 빈 몸체로 재정의해야 한다.",
+            "explanation": "실제로 HotChocolate은 brew()만 구현하고 컴파일·실행된다. 훅을 추상 메서드로 착각한 설명이다."
+          }
+        ],
+        "answer": "b"
       },
       {
         "id": "factory-method",
@@ -1205,6 +1241,33 @@ window.AX_LESSONS = [
         "answer": "c"
       },
       {
+        "id": "factory-add-sms",
+        "question": "NotificationFactoryDemo에 SMS 알림을 추가할 때 바뀌는 범위로 알맞은 것은?",
+        "options": [
+          {
+            "id": "a",
+            "text": "notifyUser() 안에 SMS 분기를 추가한다.",
+            "explanation": "notifyUser()는 받은 객체의 send()만 호출한다. 여기에 분기를 넣으면 하위 클래스로 생성을 나눈 의미가 사라진다."
+          },
+          {
+            "id": "b",
+            "text": "아무 코드도 바꾸지 않는다.",
+            "explanation": "어떤 서비스를 쓸지 고르는 조립 코드는 새 서비스를 알아야 하므로 바뀐다."
+          },
+          {
+            "id": "c",
+            "text": "SmsNotification과 SmsService를 추가하고, 서비스를 고르는 chooseService()에 분기를 더한다. notifyUser()와 기존 서비스는 그대로다.",
+            "explanation": "패턴은 변경을 없애지 않고 바뀌는 곳을 조립 지점으로 모은다."
+          },
+          {
+            "id": "d",
+            "text": "EmailService와 AppService도 SMS를 보낼 수 있게 고친다.",
+            "explanation": "기존 서비스는 자기 알림만 만들면 된다. 손댈 필요가 없다."
+          }
+        ],
+        "answer": "c"
+      },
+      {
         "id": "template-strategy",
         "question": "처리 중 계산 알고리즘을 객체 교체로 바꾸는 요구와, 고정 순서의 일부 단계를 상속으로 바꾸는 요구를 비교하면?",
         "options": [
@@ -1230,12 +1293,245 @@ window.AX_LESSONS = [
           }
         ],
         "answer": "b"
+      },
+      {
+        "id": "factory-default",
+        "question": "\"팩토리 메서드는 반드시 추상 메서드여야 하고, Creator는 기본 구현을 가질 수 없다\"는 주장에 대한 판단으로 알맞은 것은?",
+        "options": [
+          {
+            "id": "a",
+            "text": "맞다. 추상 메서드가 아니면 Factory Method가 아니다.",
+            "explanation": "NotebookLM으로 확인한 출처에서는 기본 제품을 반환하는 기본 구현도 가능하다고 설명한다."
+          },
+          {
+            "id": "b",
+            "text": "틀리다. Creator가 기본 제품을 반환하고, 필요한 하위 클래스만 재정의하게 할 수도 있다.",
+            "explanation": "수업 예제는 추상으로 두었지만, 기본 구현을 둔 Creator도 Factory Method 구조다."
+          },
+          {
+            "id": "c",
+            "text": "맞다. 기본 구현을 두면 Template Method가 된다.",
+            "explanation": "기본 구현 여부가 아니라 생성 결정을 하위 클래스가 재정의할 수 있는지가 핵심이다."
+          },
+          {
+            "id": "d",
+            "text": "틀리다. 팩토리 메서드는 항상 static이어야 한다.",
+            "explanation": "static 메서드는 하위 클래스가 재정의할 수 없어 Factory Method의 생성 위임과 맞지 않는다."
+          }
+        ],
+        "answer": "b"
       }
     ],
     "notes": [
-      "6주차는 다음 수업을 위한 예정 자료입니다. 복습에서 남긴 의문을 도입 문제와 연결해 보세요.",
-      "여기서 다루는 Factory Method는 상위 사용 흐름에서 호출하는 생성 메서드를 하위 클래스가 재정의하는 구조입니다.",
+      "6주차 수업에서는 Claude(출제·가상 학생·카페 사장), Gemini(반대 검토), NotebookLM(출처 판정)으로 역할을 나눴습니다. 두 AI가 같은 결론을 내도 코드를 직접 실행하고 출처를 확인한 뒤에 받아들이세요.",
+      "수업 중 판정 결과: 훅은 재정의하지 않아도 되고, Creator는 기본 제품을 반환하는 기본 구현을 가질 수 있습니다. static으로 객체를 고르는 메서드가 Factory Method인지는 출처 밖이라, 하위 클래스가 생성을 재정의하는 구조인지로 판단했습니다.",
+      "아이스 아메리카노처럼 처리 순서 자체가 바뀌면 하나의 템플릿으로 감당하기 어렵고, 이미 만든 알림 서비스의 채널을 실행 중에 바꾸려면 위임(Strategy) 구조가 필요합니다.",
       "추가 연습의 종합설계에서는 음료 옵션과 주문 요청에 이번 주 생성 책임을 연결할 수 있습니다."
+    ]
+  },
+  {
+    "id": "abstract-factory-choice",
+    "week": 7,
+    "title": "제품군을 만들고 패턴을 고르기",
+    "topic": "Abstract Factory · 패턴 선택",
+    "planned": true,
+    "colors": [
+      "#A7E3D0",
+      "#C5A7FF"
+    ],
+    "goals": [
+      "함께 쓰여야 하는 제품군을 한 팩토리에서 만드는 Abstract Factory 구조를 UML로 표현한다.",
+      "Factory Method와 Abstract Factory를 생성 대상의 범위와 확장 방향으로 구분한다.",
+      "헷갈리는 패턴 쌍에서 AI가 고른 패턴을 변경 요구를 근거로 반박하거나 지지한다."
+    ],
+    "concepts": [
+      "Abstract Factory는 관련된 제품 여러 개를 만드는 생성 메서드 묶음을 인터페이스로 정하고, 구체 팩토리 하나가 한 제품군을 만든다.",
+      "클라이언트는 팩토리와 제품 인터페이스에만 의존한다. 그래서 Windows 버튼과 Mac 체크박스처럼 제품군이 섞이는 일을 막기 쉽다.",
+      "새 제품군을 추가하면 구체 팩토리와 제품 클래스를 더하면 된다. 새 제품 종류를 추가하면 팩토리 인터페이스와 모든 구체 팩토리를 고쳐야 한다.",
+      "Factory Method는 상위 흐름의 생성 메서드 하나를 하위 클래스가 재정의한다. Abstract Factory는 제품군을 만드는 팩토리 객체를 클라이언트에 전달해 쓴다.",
+      "패턴은 이름보다 변경 요구에서 고른다. 무엇이 바뀌는지, 실행 중에 바뀌는지, 누가 바꾸는지를 먼저 적는다."
+    ],
+    "challenge": "설정 화면은 버튼과 체크박스를 함께 씁니다. Windows 테마에서는 Windows 버튼과 체크박스가, Mac 테마에서는 Mac 버튼과 체크박스가 나와야 하며 두 테마의 부품이 섞이면 안 됩니다. SettingsDialog가 구체 부품 클래스를 몰라도 되도록 UML을 그려 보세요.\n\n그린 뒤 두 가지 변경을 가정하세요. ① Linux 테마 추가 ② 모든 테마에 Slider 추가. 각각 새로 만드는 클래스와 수정하는 코드를 나눠 적고, 6주차 Factory Method(알림 서비스)와 무엇이 다른지 한 문장으로 설명하세요.",
+    "hints": [
+      "SettingsDialog가 new WindowsButton()을 직접 호출하면 테마를 바꿀 때 어디를 고쳐야 하나요? 테마가 바뀔 때 함께 바뀌는 부품을 묶어 보세요.",
+      "버튼과 체크박스를 만드는 메서드 두 개를 가진 인터페이스를 하나 두고, 테마마다 그 인터페이스를 구현해 보세요. SettingsDialog는 그 인터페이스를 생성자로 받으면 됩니다.",
+      "UiFactory에 createButton과 createCheckbox를 두고 WindowsFactory와 MacFactory가 구현하게 해 보세요. Linux 테마는 클래스 추가로 끝나지만 Slider는 UiFactory와 모든 구체 팩토리를 고쳐야 합니다. 6주차 예제는 상속으로 제품 하나를, 이번 예제는 팩토리 객체로 제품군을 만듭니다."
+    ],
+    "prompts": [
+      {
+        "label": "분석 질문",
+        "text": "Java와 UML, SOLID, Strategy·State, Command·Observer, Decorator·Composite, Template Method·Factory Method를 배운 대학생이야. 다음 수업에서 Abstract Factory와 패턴 선택을 학습할 예정이야. Windows·Mac 테마의 버튼과 체크박스가 섞이지 않아야 하는 설정 화면을 예로, 함께 바뀌는 부품과 생성 위치를 찾는 분석 질문을 세 개 만들어 줘. 내가 UML을 그리기 전에는 완성 설계를 보여주지 마. 튜터는 새 테마 추가와 새 부품 추가의 변경 범위를 구분하는지 확인할 거야."
+      },
+      {
+        "label": "단계별 힌트",
+        "text": "내 UML과 처음 생각한 답을 붙일게. 설정 화면이 구체 부품 클래스를 직접 만드는지, 테마별 부품이 섞일 수 있는지 살펴봐 줘. 한 번에 힌트 하나만 주고 내가 수정한 뒤 다음 힌트를 줘. 패턴 이름보다 어느 객체가 어떤 부품을 함께 만드는지 먼저 묻도록 해 줘."
+      },
+      {
+        "label": "패턴 반박 토론",
+        "text": "다음 요구사항에 어울리는 설계패턴을 변경 지점마다 하나씩 제안하고 근거를 설명해 줘. 그다음 내가 다른 패턴을 주장할 테니 반박하거나 인정해 줘. 판단 기준은 무엇이 바뀌는지, 실행 중에 바뀌는지, 누가 바꾸는지야. 요구사항: 카페 주문에서 결제 방식은 주문마다 고르고, 음료 옵션은 여러 개 겹칠 수 있고, 주문 상태에 따라 취소 가능 여부가 달라진다. 패턴이 꼭 필요하지 않은 부분이 있으면 쓰지 말자고 말해 줘."
+      },
+      {
+        "label": "Gemini 교차 검토",
+        "text": "Abstract Factory 설계와 Claude의 리뷰를 붙일게. 팩토리 인터페이스, 구체 팩토리, 제품 인터페이스, 클라이언트의 의존 방향을 따로 확인해 줘. Factory Method와 Abstract Factory를 메서드 개수만으로 구분한 설명이 있으면 짚어 줘. 새 테마와 새 부품을 추가할 때의 변경 범위가 맞는지 검토하고, 처음 판단과 최종 판단을 비교하고 코드나 UML에서 근거를 찾을 회고 질문을 제시해 줘."
+      }
+    ],
+    "examples": [
+      {
+        "title": "테마별 부품을 한 팩토리에서 만들기",
+        "description": "UiFactory는 버튼과 체크박스를 만드는 메서드를 정한다. SettingsDialog는 전달받은 팩토리로 부품을 만들기 때문에 한 테마의 부품만 쓰게 된다.",
+        "className": "UiFactoryDemo",
+        "code": "public class UiFactoryDemo {\n    interface Button { String render(); }\n    interface Checkbox { String render(); }\n\n    interface UiFactory {\n        Button createButton();\n        Checkbox createCheckbox();\n    }\n\n    static final class WindowsButton implements Button {\n        public String render() { return \"[Windows Button]\"; }\n    }\n    static final class WindowsCheckbox implements Checkbox {\n        public String render() { return \"[Windows Checkbox]\"; }\n    }\n    static final class MacButton implements Button {\n        public String render() { return \"(Mac Button)\"; }\n    }\n    static final class MacCheckbox implements Checkbox {\n        public String render() { return \"(Mac Checkbox)\"; }\n    }\n\n    static final class WindowsFactory implements UiFactory {\n        public Button createButton() { return new WindowsButton(); }\n        public Checkbox createCheckbox() { return new WindowsCheckbox(); }\n    }\n    static final class MacFactory implements UiFactory {\n        public Button createButton() { return new MacButton(); }\n        public Checkbox createCheckbox() { return new MacCheckbox(); }\n    }\n\n    static final class SettingsDialog {\n        private final Button button;\n        private final Checkbox checkbox;\n        SettingsDialog(UiFactory factory) {\n            this.button = factory.createButton();\n            this.checkbox = factory.createCheckbox();\n        }\n        String render() { return button.render() + \" \" + checkbox.render(); }\n    }\n\n    public static void main(String[] args) {\n        System.out.println(new SettingsDialog(new WindowsFactory()).render());\n        System.out.println(new SettingsDialog(new MacFactory()).render());\n    }\n}",
+        "expectedOutput": "[Windows Button] [Windows Checkbox]\n(Mac Button) (Mac Checkbox)\n"
+      },
+      {
+        "title": "같은 할인 요구를 두 패턴으로 풀어 보기",
+        "description": "OrderCalculator는 계산 순서를 고정하고 하위 클래스가 할인 단계를 정한다. Checkout은 할인 정책 객체를 받아 실행 중에도 바꿀 수 있다. 소계 → 할인 → 배송비 3,000원 순서다.",
+        "className": "DiscountChoiceDemo",
+        "code": "public class DiscountChoiceDemo {\n    static abstract class OrderCalculator {\n        final int total(int price, int quantity) {\n            int subtotal = price * quantity;\n            int discounted = subtotal - discount(subtotal);\n            return discounted + 3000;\n        }\n        protected abstract int discount(int subtotal);\n    }\n    static final class MemberCalculator extends OrderCalculator {\n        protected int discount(int subtotal) { return subtotal / 10; }\n    }\n\n    interface DiscountPolicy { int discount(int subtotal); }\n    static final class Checkout {\n        private DiscountPolicy policy;\n        Checkout(DiscountPolicy policy) { this.policy = policy; }\n        void changePolicy(DiscountPolicy policy) { this.policy = policy; }\n        int total(int price, int quantity) {\n            int subtotal = price * quantity;\n            return subtotal - policy.discount(subtotal) + 3000;\n        }\n    }\n\n    public static void main(String[] args) {\n        System.out.println(\"Template \" + new MemberCalculator().total(5000, 2));\n        Checkout checkout = new Checkout(subtotal -> subtotal / 10);\n        System.out.println(\"Strategy \" + checkout.total(5000, 2));\n        checkout.changePolicy(subtotal -> 0);\n        System.out.println(\"Strategy \" + checkout.total(5000, 2));\n    }\n}",
+        "expectedOutput": "Template 12000\nStrategy 12000\nStrategy 13000\n"
+      }
+    ],
+    "quiz": [
+      {
+        "id": "af-family",
+        "question": "설정 화면에서 Windows 버튼과 Mac 체크박스가 섞이면 안 된다. Abstract Factory가 이 요구에 도움이 되는 이유는?",
+        "options": [
+          {
+            "id": "a",
+            "text": "구체 팩토리 하나가 한 테마의 버튼과 체크박스를 함께 만든다.",
+            "explanation": "SettingsDialog는 팩토리 하나만 받으므로 다른 테마의 부품을 섞어 만들 경로가 없다."
+          },
+          {
+            "id": "b",
+            "text": "버튼 클래스가 프로그램에 하나만 존재한다.",
+            "explanation": "테마마다 버튼 클래스가 따로 있다. 클래스 수를 줄이는 패턴이 아니다."
+          },
+          {
+            "id": "c",
+            "text": "SettingsDialog가 테마 이름을 if 문으로 비교한다.",
+            "explanation": "예제의 SettingsDialog는 테마를 비교하지 않고 팩토리 인터페이스만 호출한다."
+          },
+          {
+            "id": "d",
+            "text": "모든 부품을 static 메서드로 만든다.",
+            "explanation": "예제의 생성 메서드는 구체 팩토리의 인스턴스 메서드다."
+          }
+        ],
+        "answer": "a"
+      },
+      {
+        "id": "af-new-family",
+        "question": "UiFactoryDemo에 Linux 테마를 추가할 때 필요한 변경으로 알맞은 것은?",
+        "options": [
+          {
+            "id": "a",
+            "text": "UiFactory에 createLinuxButton 메서드를 추가한다.",
+            "explanation": "제품군이 늘어도 만드는 부품 종류는 같으므로 팩토리 인터페이스를 바꿀 필요가 없다."
+          },
+          {
+            "id": "b",
+            "text": "기존 WindowsFactory와 MacFactory를 모두 수정한다.",
+            "explanation": "기존 구체 팩토리는 자기 테마의 부품만 만들므로 그대로 둔다."
+          },
+          {
+            "id": "c",
+            "text": "LinuxButton, LinuxCheckbox, LinuxFactory를 추가한다. SettingsDialog는 그대로 두고, 어떤 팩토리를 넘길지 고르는 코드는 바뀔 수 있다.",
+            "explanation": "새 제품군은 클래스 추가로 대응하고, 조립 코드에서 새 팩토리를 선택한다."
+          },
+          {
+            "id": "d",
+            "text": "SettingsDialog에 Linux 분기를 추가한다.",
+            "explanation": "클라이언트가 테마별로 분기하면 팩토리로 생성을 분리한 의미가 줄어든다."
+          }
+        ],
+        "answer": "c"
+      },
+      {
+        "id": "af-new-product",
+        "question": "모든 테마에 Slider 부품을 추가하려고 한다. 변경 범위로 알맞은 것은?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Linux 테마 추가처럼 새 클래스만 만들면 된다.",
+            "explanation": "새 부품 종류는 팩토리 인터페이스가 만들 수 있는 목록 자체를 바꾼다."
+          },
+          {
+            "id": "b",
+            "text": "UiFactory에 createSlider를 추가하고 모든 구체 팩토리를 고쳐야 한다.",
+            "explanation": "새 제품 종류 추가는 Abstract Factory에서 변경 범위가 큰 방향이다."
+          },
+          {
+            "id": "c",
+            "text": "SettingsDialog만 수정하면 된다.",
+            "explanation": "SettingsDialog가 Slider를 만들려면 팩토리가 Slider를 만들 수 있어야 한다."
+          },
+          {
+            "id": "d",
+            "text": "아무것도 바꾸지 않아도 된다.",
+            "explanation": "현재 팩토리에는 Slider를 만드는 메서드가 없다."
+          }
+        ],
+        "answer": "b"
+      },
+      {
+        "id": "fm-vs-af",
+        "question": "6주차 Factory Method(알림 서비스)와 이번 주 Abstract Factory(UI 팩토리)의 차이를 가장 잘 설명한 것은?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Factory Method는 static 메서드이고 Abstract Factory는 인스턴스 메서드다.",
+            "explanation": "6주차 createNotification도 하위 클래스가 재정의하는 인스턴스 메서드였다."
+          },
+          {
+            "id": "b",
+            "text": "이름에 Abstract가 붙으면 Abstract Factory다.",
+            "explanation": "이름이 아니라 생성 책임의 구조로 판단한다."
+          },
+          {
+            "id": "c",
+            "text": "Abstract Factory는 제품 인스턴스를 하나만 만든다.",
+            "explanation": "인스턴스 수 제한은 Singleton이 다루는 문제다."
+          },
+          {
+            "id": "d",
+            "text": "Factory Method는 상위 흐름의 생성 메서드 하나를 하위 클래스가 재정의하고, Abstract Factory는 관련 제품 여러 개를 만드는 팩토리 객체를 클라이언트에 전달한다.",
+            "explanation": "상속으로 제품 하나를 정하는 구조와 조합으로 제품군을 정하는 구조를 구분했다."
+          }
+        ],
+        "answer": "d"
+      },
+      {
+        "id": "choose-pattern",
+        "question": "계산 순서(소계 → 할인 → 배송비)는 고정이고, 회원 등급이 바뀌면 주문 중에도 할인 규칙을 바꿔야 한다. DiscountChoiceDemo를 보고 먼저 검토할 설계는?",
+        "options": [
+          {
+            "id": "a",
+            "text": "등급마다 OrderCalculator 하위 클래스를 만든다.",
+            "explanation": "상속으로 정한 할인 단계는 객체를 만들 때 고정되므로, 주문 중 교체 요구에는 계산기 객체를 다시 골라야 한다."
+          },
+          {
+            "id": "b",
+            "text": "할인 정책 객체를 주입하고 changePolicy로 바꾸는 Strategy를 쓴다.",
+            "explanation": "실행 중 교체가 핵심 변경 요구이므로 위임 구조가 맞다. 출력의 두 번째와 세 번째 줄이 교체 결과다."
+          },
+          {
+            "id": "c",
+            "text": "Abstract Factory로 할인 제품군을 만든다.",
+            "explanation": "함께 만들어야 하는 제품군이 없다. 할인 규칙 하나를 바꾸는 요구다."
+          },
+          {
+            "id": "d",
+            "text": "Singleton으로 할인 객체를 하나만 둔다.",
+            "explanation": "인스턴스 수를 제한하는 것과 규칙을 교체하는 것은 별개의 문제다."
+          }
+        ],
+        "answer": "b"
+      }
+    ],
+    "notes": [
+      "7주차는 다음 수업을 위한 예정 자료입니다. 6주차 Factory Method 예제와 나란히 놓고 생성 책임이 어디에 있는지 먼저 적어 보세요.",
+      "패턴 반박 토론에서는 AI가 고른 패턴을 바로 받아들이지 말고, 무엇이 바뀌는지와 언제 바뀌는지로 반박해 보세요.",
+      "수업 후반에는 추가 연습의 종합설계 연습에서 스마트 카페 주문 시스템을 설계합니다."
     ]
   }
 ];
